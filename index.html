@@ -57,15 +57,21 @@
 
             let showFullName = (fa)=>{
                 console.log(fa)
-                console.log(fa.closest('tr'));
+                console.log(fa.closest('tr'));         
             }
             let myName = (H)=>{
                 console.log(H);
                 console.log(H.closest('tr').querySelector('td:first-child'));
-                 console.log(H.closest('tr').querySelector('td:nth-child(2)'));
+                console.log(H.closest('tr').querySelector('td:nth-child(2)'));
+                console.log(H.closest('tr').querySelector('td:first-child').innerHTML);
+                console.log(H.closest('tr').querySelector('td:nth-child(2)').innerHTML);
+                
+                let name = H.closest('tr').querySelector('td:first-child').innerHTML;
+                let Surname = H.closest('tr').querySelector('td:nth-child(2)').innerHTML;
 
-
+                console.log(`Hello ${name} ${Surname}`);
             }
+            
         </script>
     </body>
 </html>
