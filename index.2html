@@ -6,6 +6,7 @@
         <title>Document</title>
     </head>
     <body>
-        <Script src="./js/message.js"></Script>
+        
+        <script src="./js/message.js"></script>
     </body>
 </html>
